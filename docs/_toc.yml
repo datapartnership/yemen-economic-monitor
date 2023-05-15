@@ -2,12 +2,10 @@ format: jb-book
 root: README
 
 parts:
-  - caption: Introduction to Data Goods
+  - caption: Data Goods Overview and Foundational Data
     numbered: False
     chapters:
       - file: docs/introduction_to_data_goods
-  - caption: Foundational Datasets and Data Product Summary
-    chapters:
       - file: docs/foundational_datasets_and_data_products.md
   - caption: Data Products
       - file: docs/data-products.md
