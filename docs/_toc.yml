@@ -2,19 +2,18 @@ format: jb-book
 root: README
 
 parts:
-  - caption: Examples
-    numbered: True
+  - caption: Introduction to Data Goods
+    numbered: False
     chapters:
-      - file: notebooks/world-bank-api.ipynb
-      - file: notebooks/world-bank-package.ipynb
-      - file: notebooks/nasa-apod.ipynb
-  - caption: Additional Resources
+      - file: docs/introduction_to_data_goods
+  - caption: Foundational Datasets and Data Product Summary
     chapters:
-      - url: https://datapartnership.org
-        title: Development Data Partnership
-      - url: https://wbdatalab.org
-        title: World Bank Data Lab
-      - url: https://www.worldbank.org/en/about/unit/unit-dec
-        title: World Bank DEC
-      - url: https://www.worldbank.org/en/research/dime
-        title: World Bank DIME
+      - file: docs/foundational_datasets_and_data_products.md
+  - caption: Data Products
+      - file: docs/data-products.md
+  - caption: Sample Indicators and Insights
+    chapters:
+      - file: docs/sample-indicators  
+  - caption: Acknowledgements
+    chapters:
+      - file: docs/team.md
