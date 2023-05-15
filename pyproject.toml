@@ -5,15 +5,15 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "datalab"
 dynamic = ["version"]
-description = "An Python exampe package from the World Bank Data Lab"
+description = "Data Goods supporting Yemen economic monitoring"
 readme = {file = "README.md", content-type = "text/markdown"}
 license = {file = "LICENSE"}
-keywords = ["world bank", "template", "reproducible research"]
+keywords = ["world bank", "Yemen", "nighttime lights"]
 authors = [
   {name="World Bank Development Data Group", email="datalab@worldbank.org"},
 ]
 maintainers = [
-  {name="Gabriel Stefanini Vicente", email="gvicente@worldbank.org"},
+  {name="Holly Krambeck", email="hkrambeck@worldbank.org"},
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -36,9 +36,9 @@ dependencies = [
 notebook = ["notebook>=6.5.2"]
 
 [project.urls]
-"Homepage" = "https://github.com/worldbank/template"
-"Bug Reports" = "https://github.com/worldbank/template/issues"
-"Source" = "https://github.com/worldbank/template"
+"Homepage" = "https://datapartnership.org/Yemen_Economic_Monitoring/README.html"
+"Bug Reports" = "https://github.com/datapartnership/Yemen_Economic_Monitoring/issues"
+"Source" = "https://datapartnership.org/Yemen_Economic_Monitoring/README.html"
 
 [tool.setuptools.dynamic]
 version = {attr = "datalab.__version__"}
