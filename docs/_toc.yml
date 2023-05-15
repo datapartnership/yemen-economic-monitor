@@ -8,6 +8,7 @@ parts:
       - file: docs/introduction_to_data_goods
       - file: docs/foundational_datasets_and_data_products.md
   - caption: Data Products
+    chapters:
       - file: docs/data-products.md
   - caption: Sample Indicators and Insights
     chapters:
