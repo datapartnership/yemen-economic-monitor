@@ -6,4 +6,4 @@ Over time, datasets, code, and documentation will be added to the repository, su
 
 ## License
 
-This repository is licensed under the [**World Bank Master Community License Agreement
+This repository is licensed under the [World Bank Master Community License Agreement](https://worldbank.github.io/template/_downloads/9879d6db96fd29134fc802214163b95a/LICENSE). 
