@@ -14,15 +14,15 @@ The **Development Data Hub** is the World Bank's central data catalogue and incl
 
 Where feasible, all datasets that can be obtained through the Development Data Hub have been placed in a special collection: *forthcoming*
 
-| ID  | Name | License | Description | Update Frequency | Access | Contact |
-| --- | ---- | ------- | ----------- | ---------------- | ------ | ------- |
-| 1   |      |         |             |                  |        |         |
-| 2   |      |         |             |                  |        |         |
-| 3   |      |         |             |                  |        |         |
-| 4   |      |         |             |                  |        |         |
-| 5   |      |         |             |                  |        |         |
-| 6   |      |         |             |                  |        |         |
-| 7   |      |         |             |                  |        |         |
+| ID  | Name                                 | License | Description                                                                                                                                     | Update Frequency | Access                                                                                                                     | Contact                                          |
+| --- | ------------------------------------ | ------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
+| 1   | VIIRS Nighttime Day/NIght Composites | Open    | Monthly average radiance composite images using nighttime data from the Visible Infrared Imaging Radiometer Suite (VIIRS) Day/Night Band (DNB). | Monthly          | Via [Earth Engine Catalogue](https://developers.google.com/earth-engine/datasets/catalog/NOAA_VIIRS_DNB_MONTHLY_V1_VCMCFG) | Andres Chamorro (achamorroelizond@worldbank.org) |
+| 2   | ACAPS Yemen Areas of Control         | Open    | Tabular and geospatial data on areas of control                                                                                                 | Bi-weekly        | Via [HDX](https://data.humdata.org/dataset/yemen-areas-of-control)                                                         | Steve Penson (spenson@worldbank.org)             |
+| 3   |                                      |         |                                                                                                                                                 |                  |                                                                                                                            |                                                  |
+| 4   |                                      |         |                                                                                                                                                 |                  |                                                                                                                            |                                                  |
+| 5   |                                      |         |                                                                                                                                                 |                  |                                                                                                                            |                                                  |
+| 6   |                                      |         |                                                                                                                                                 |                  |                                                                                                                            |                                                  |
+| 7   |                                      |         |                                                                                                                                                 |                  |                                                                                                                            |                                                  |
 
 ## Data Products Summary
 
@@ -30,8 +30,8 @@ Where feasible, all datasets that can be obtained through the Development Data H
 
 Following is a summary of Data Products used in this Data Good:
 
-| ID  | Name | Description | Limitations | Foundational Datasets Used (ID#) |
-| --- | ---- | ----------- | ----------- | -------------------------------- |
-| A   |      |             |             |                                  |
-| B   |      |             |             |                                  |
-| C   |      |             |             |                                  |
+| ID  | Name                        | Description                                                                                            | Limitations                                                    | Foundational Datasets Used (ID#) |
+| --- | --------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------- | -------------------------------- |
+| A   | Nighttime Lights Monitoring | Observed nighttime lights and percent change over a historical average by admin-1 and by control area. | Extrapoliations made for periods with significant cloud cover. | 1,2                              |
+| B   |                             |                                                                                                        |                                                                |                                  |
+| C   |                             |                                                                                                        |                                                                |                                  |
