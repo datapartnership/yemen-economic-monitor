@@ -9,7 +9,7 @@ parts:
       - file: docs/foundational_datasets_and_data_products.md
   - caption: Data Products
     chapters:
-      - file: docs/data-products.md
+      - file: notebooks/NTL-notebooks/yemen-NTL.md
   - caption: Sample Indicators and Insights
     chapters:
       - file: docs/sample-indicators  
