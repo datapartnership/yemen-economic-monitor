@@ -16,7 +16,7 @@ Understanding how on-going conflict has impacted the Yemen economy can be challe
 
 The team used monthly composites from the [Earth Observation Group](https://mcas-proxyweb.mcas.ms/certificate-checker?login=false&originalUrl=https%3A%2F%2Fdevelopers.google.com.mcas.ms%2Fearth-engine%2Fdatasets%2Fcatalog%2FNOAA_VIIRS_DNB_MONTHLY_V1_VCMCFG%3FMcasTsid%3D20893&McasCSRF=37807788db9949b5f9e1802d3415f43cf8072003919c339c8b17499915ca26e4) (EOG), available on Google Earth Engine and available through January 2023.
 
-The team considered using raw imagery from [Black Marble](https://datacatalog.worldbank.org/int/data/dataset/0063879/syria__night_time_lights), which has been successfully used in other Bank projects, such as the Syria Economic Monitor, but in Yemen, abnormal spikes were observed during time periods where there were no valid observations due to clouds.These spikes may result from a gap-filling technique that is introducing too much noise to the data. 
+The team considered using raw imagery from [Black Marble](https://blackmarble.gsfc.nasa.gov/), which has been successfully used in other Bank projects, such as the Syria Economic Monitor, but in Yemen, abnormal spikes were observed during time periods where there were no valid observations due to clouds.These spikes may result from a gap-filling technique that is introducing too much noise to the data. 
 
 To deal with this issue in the EOG data (which occurs only during a couple months in select governorates), the team implemented a moving-window linear regression to interpolate missing values at the pixel level. This method is presented in the [project notebook used to determine NTL trends at the governorate level](https://github.com/datapartnership/yemen-economic-monitor/blob/main/notebooks/ntl-yemen-adm1.ipynb). 
 
@@ -54,9 +54,9 @@ Both the North and South follow very similar trends, with a slightly larger incr
 
 #### Code Notebooks
 
-* [Nightime Lights by Admin-1 Level](https://github.com/datapartnership/yemen-economic-monitor/blob/main/notebooks/NTL-notebooks/ntl-yemen-adm1.ipynb)
+* [Nightime Lights by Admin-1 Level](https://github.com/datapartnership/yemen-economic-monitor/blob/main/notebooks/NTL-notebooks/01-ntl-yemen-adm1.ipynb)
 
-* [Nighttime Lights by Control Area](https://github.com/datapartnership/yemen-economic-monitor/blob/main/notebooks/NTL-notebooks/ntl-yemen-control.ipynb)
+* [Nighttime Lights by Control Area](https://github.com/datapartnership/yemen-economic-monitor/blob/main/notebooks/NTL-notebooks/02-ntl-yemen-control.ipynb)
 
 ## Findings
 
