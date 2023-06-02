@@ -38,7 +38,7 @@ Since NTL tend to exhibit seasonality trends, the team compared current values w
 
 ![](NTL-images/adm1-pct-change-historical.jpeg)
 
-In general, oberved nighttime lights have increased relative to previous years, though, some governorates show sharp decreases after April 2022, such as Amanat Al Asimah and Adan, and a notable decline after October 2022 observed in Ma'rib.
+In general, oberved nighttime lights have increased relative to previous years, though, some governorates show sharp decreases after April 2022, such as Amanat Al Asimah and Adan, and a notable decline after October 2022 observed in Ma'rib and Shabwah.
 
 Next, we plotted a line chart that shows the sum of lights by control group, from January 2021 through January 2023.
 
@@ -60,4 +60,4 @@ Both the North and South follow very similar trends, with a slightly larger incr
 
 ## Findings
 
-As noted above, in general, oberved nighttime lights have increased relative to previous years, though, some governorates show sharp decreases after April 2022, such as Amanat Al Asimah and Adan, and a notable decline after October 2022 observed in Ma'rib. Further, in terms of control areas, both the North and South follow very similar trends, with a slightly larger increase in observed lights in the North (DFA).
+As noted above, in general, oberved nighttime lights have increased relative to previous years, though, some governorates show sharp decreases after April 2022, such as Amanat Al Asimah and Adan, and a notable decline after October 2022 observed in Ma'rib and Shabwah. Further, in terms of control areas, both the North and South follow very similar trends, with a slightly larger increase in observed lights in the North (DFA).
