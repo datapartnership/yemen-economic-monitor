@@ -22,7 +22,7 @@ To deal with this issue in the EOG data (which occurs only during a couple month
 
 For more information about nighttime light imagery and alternative methods for accessing them, we recommend referring to the World Bank's [Light Every Night Guide](https://worldbank.github.io/OpenNightLights/wb-light-every-night-readme.html).
 
-All NTL data have been stored on the [project SharePoint](https://mcas-proxyweb.mcas.ms/certificate-checker?login=false&originalUrl=https%3A%2F%2Fworldbankgroup-my.sharepoint.com.mcas.ms%2F%3Af%3A%2Fg%2Fpersonal%2Fachamorroelizond_worldbank_org%2FEvYyPqok3xpIlQU3taiWHYYBWCRp6NqfH1rj6MJxVg39zA%3Fe%3DUf7hD8%26McasTsid%3D20893&McasCSRF=37807788db9949b5f9e1802d3415f43cf8072003919c339c8b17499915ca26e4), which can be made accessible to the project team. The tables contain monthly sum of lights from 2018 to present, aggregated at the admin-1 level and by control group (IRG or DFA).
+All NTL data have been stored on the [project SharePoint](https://worldbankgroup.sharepoint.com/:f:/t/DevelopmentDataPartnershipCommunity-WBGroup/EqV1m8Y_7BdEgDXPuCMbhZ4Beo-7vmUEGM8rDGvyRnJ57Q?e=7VkuGg), which can be made accessible to the project team. The tables contain monthly sum of lights from 2018 to present, aggregated at the admin-1 level and by control group (IRG or DFA).
 
 #### Control Area
 
