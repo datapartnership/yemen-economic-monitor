@@ -70,6 +70,10 @@ Since flaring activite is only observed in two governorates -- Ma'rib and Shabwa
 
 * [Nighttime Lights by Control Area](https://github.com/datapartnership/yemen-economic-monitor/blob/main/notebooks/NTL-notebooks/02-ntl-yemen-control.ipynb)
 
+* [Nightime Lights by Admin-1 Level with Separated Flares](https://github.com/datapartnership/yemen-economic-monitor/blob/d38fd619dbf7e0d59a69c729b0dd40d8375f97ce/notebooks/NTL-notebooks/03-ntl-yemen-adm1-flares.ipynb)
+
+* [Nighttime Lights by Control Area with Separated Flares](https://github.com/datapartnership/yemen-economic-monitor/blob/d38fd619dbf7e0d59a69c729b0dd40d8375f97ce/notebooks/NTL-notebooks/04-ntl-yemen-control-flares.ipynb) 
+
 ## Findings
 
 As noted above, in general, oberved nighttime lights have increased relative to previous years, though, some governorates show sharp decreases after April 2022, such as Amanat Al Asimah and Adan, and a notable decline after October 2022 observed in Ma'rib and Shabwah. Further, in terms of control areas, both the North and South follow very similar trends, with a slightly larger increase in observed lights in the North (DFA).
