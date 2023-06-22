@@ -66,6 +66,8 @@ Since flaring activite is only observed in two governorates -- Ma'rib and Shabwa
 
 #### Code Notebooks
 
+Following are four Python Jupyter notebooks used to generate the analyses and graphs in this summary:
+
 * [Nightime Lights by Admin-1 Level](https://github.com/datapartnership/yemen-economic-monitor/blob/main/notebooks/NTL-notebooks/01-ntl-yemen-adm1.ipynb)
 
 * [Nighttime Lights by Control Area](https://github.com/datapartnership/yemen-economic-monitor/blob/main/notebooks/NTL-notebooks/02-ntl-yemen-control.ipynb)
@@ -73,6 +75,18 @@ Since flaring activite is only observed in two governorates -- Ma'rib and Shabwa
 * [Nightime Lights by Admin-1 Level with Separated Flares](https://github.com/datapartnership/yemen-economic-monitor/blob/d38fd619dbf7e0d59a69c729b0dd40d8375f97ce/notebooks/NTL-notebooks/03-ntl-yemen-adm1-flares.ipynb)
 
 * [Nighttime Lights by Control Area with Separated Flares](https://github.com/datapartnership/yemen-economic-monitor/blob/d38fd619dbf7e0d59a69c729b0dd40d8375f97ce/notebooks/NTL-notebooks/04-ntl-yemen-control-flares.ipynb) 
+
+Data needed to run the notebooks (that cannot be retreived via API) has been added to the project [GitHub repo]((https://github.com/datapartnership/yemen-economic-monitor/tree/main)) in the Data folder.
+
+If using Conda, you can use the following set-up code:
+
+```sh
+conda create -n ntl python=3
+conda activate ntl
+pip install -r requirements.txt
+```
+
+Else, you can set up a virtual environment using your own preferred method and install the requirements. 
 
 ## Findings
 
