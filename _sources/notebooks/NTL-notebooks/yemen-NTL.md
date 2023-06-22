@@ -76,7 +76,7 @@ Following are four Python Jupyter notebooks used to generate the analyses and gr
 
 * [Nighttime Lights by Control Area with Separated Flares](https://github.com/datapartnership/yemen-economic-monitor/blob/d38fd619dbf7e0d59a69c729b0dd40d8375f97ce/notebooks/NTL-notebooks/04-ntl-yemen-control-flares.ipynb) 
 
-Data needed to run the notebooks (that cannot be retreived via API) has been added to the project [GitHub repo]((https://github.com/datapartnership/yemen-economic-monitor/tree/main)) in the Data folder.
+Data needed to run the notebooks (that cannot be retreived via API) has been added to the project [GitHub repo](https://github.com/datapartnership/yemen-economic-monitor/tree/main) in the Data folder.
 
 If using Conda, you can use the following set-up code:
 
