@@ -623,12 +623,21 @@ title="Print to PDF"
 <p><img alt="" src="../../_images/adm1-lights-flares.jpeg" /></p>
 <section id="code-notebooks">
 <h3>Code Notebooks<a class="headerlink" href="#code-notebooks" title="Permalink to this heading">#</a></h3>
+<p>Following are four Python Jupyter notebooks used to generate the analyses and graphs in this summary:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://github.com/datapartnership/yemen-economic-monitor/blob/main/notebooks/NTL-notebooks/01-ntl-yemen-adm1.ipynb">Nightime Lights by Admin-1 Level</a></p></li>
 <li><p><a class="reference external" href="https://github.com/datapartnership/yemen-economic-monitor/blob/main/notebooks/NTL-notebooks/02-ntl-yemen-control.ipynb">Nighttime Lights by Control Area</a></p></li>
 <li><p><a class="reference external" href="https://github.com/datapartnership/yemen-economic-monitor/blob/d38fd619dbf7e0d59a69c729b0dd40d8375f97ce/notebooks/NTL-notebooks/03-ntl-yemen-adm1-flares.ipynb">Nightime Lights by Admin-1 Level with Separated Flares</a></p></li>
 <li><p><a class="reference external" href="https://github.com/datapartnership/yemen-economic-monitor/blob/d38fd619dbf7e0d59a69c729b0dd40d8375f97ce/notebooks/NTL-notebooks/04-ntl-yemen-control-flares.ipynb">Nighttime Lights by Control Area with Separated Flares</a></p></li>
 </ul>
+<p>Data needed to run the notebooks (that cannot be retreived via API) has been added to the project <span class="xref myst">GitHub repo</span> in the Data folder.</p>
+<p>If using Conda, you can use the following set-up code:</p>
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>ntl<span class="w"> </span><span class="nv">python</span><span class="o">=</span><span class="m">3</span>
+conda<span class="w"> </span>activate<span class="w"> </span>ntl
+pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</pre></div>
+</div>
+<p>Else, you can set up a virtual environment using your own preferred method and install the requirements.</p>
 </section>
 </section>
 <section id="findings">
@@ -768,7 +777,7 @@ By World Bank
   
   <div class="footer-item">
     <p class="last-updated">
-Last updated on Jun 15, 2023.<br>
+Last updated on Jun 22, 2023.<br>
 </p>
   </div>
   
