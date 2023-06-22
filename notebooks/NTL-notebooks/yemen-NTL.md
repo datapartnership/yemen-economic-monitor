@@ -86,7 +86,7 @@ conda activate ntl
 pip install -r requirements.txt
 ```
 
-Else, you can set up a virtual environment using your own preferred method and install the requirements. 
+Else, you can set up a virtual environment using your own preferred method and install the requirements.txt. 
 
 ## Findings
 
